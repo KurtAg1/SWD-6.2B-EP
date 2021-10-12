@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Contact Us</h1>
+
+<form method="post" action="\Contact\HandleQuery">
+    Question:
+    <br />
+    <textarea class="form-control" rows="4" name="query"></textarea>
+    <br />
+    <input type="submit" value="Submit" class="btn btn-primary"/>
+</form>
