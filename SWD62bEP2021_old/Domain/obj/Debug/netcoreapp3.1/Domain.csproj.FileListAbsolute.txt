@@ -1,0 +1,12 @@
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.json
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\kurta\source\repos\SWD-6.2B-EP\SWD62bEP2021\Domain\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache
