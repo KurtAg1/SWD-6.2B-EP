@@ -37,24 +37,28 @@ namespace Presentation
            options.UseSqlServer(
                Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<BloggingContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
 
-            // these lines of code will inform the injector class what implementation to instantiate
-            // for the requested interface.
+            //these lines of code will inform the injector class what implementation to instantiate
+            //for the requested interface
 
-            // AddScoped > 1 instance per request
-            //           > e.g. user opens the Index method, makes two calls for the same repository
-            //                  class. result: 1 instance of the repo class
+            //AddScoped > 1 instance per request
+             //         > e.g. user opens the Index method and the index method makes two calls for the same repository
+             //                class. result: 1 instance of the repository class is created
 
             services.AddScoped<IBlogsService, BlogsService>();
-            services.AddScoped<IBlogsRepository, BlogsRepository>();
+            services.AddScoped<IBlogsRepository, BlogsRepositories>();
+
+            services.AddScoped<ICategoriesService, CategoriesService>();
+            services.AddScoped<ICategoriesRepository, CategoriesRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

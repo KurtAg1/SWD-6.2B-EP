@@ -11,7 +11,11 @@ namespace Domain.Interfaces
         public IQueryable<Blog> GetBlogs();
         public Blog GetBlog(int id);
         public void AddBlog(Blog b);
+
         public void DeleteBlog(Blog b);
+
         public void UpdateBlog(Blog b);
+
+      
     }
 }

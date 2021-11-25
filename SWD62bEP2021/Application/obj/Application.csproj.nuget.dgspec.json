@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Application\\Application.csproj": {}
+    "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Application\\Application.csproj": {
+    "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\kurta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Application\\obj\\",
+        "outputPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Domain\\Domain.csproj"
+              "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Domain\\Domain.csproj"
               }
             }
           }
@@ -48,7 +48,19 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.20, )"
             },
@@ -90,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Domain\\Domain.csproj": {
+    "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\kurta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62bEP2021\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\kurta\\source\\repos\\SWD-6.2B-EP\\SWD62BEP2021\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,7 +142,19 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.20, )"
             },

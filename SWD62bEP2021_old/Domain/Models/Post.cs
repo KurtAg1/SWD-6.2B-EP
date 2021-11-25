@@ -11,10 +11,13 @@ namespace Domain.Models
         [Key]
         public int Id { get; set; }
         public string Content { get; set; }
-        public string author { get; set; }
+
+        public string Author { get; set; }
         public DateTime DateCreated { get; set; }
+
         [ForeignKey("Blog")]
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
+
     }
 }
